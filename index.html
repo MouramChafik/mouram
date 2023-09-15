@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cabinet infirmier</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cabinet infirmier</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+          </li>
+          <li>
+            <a href="services.html"><i class="fas fa-cogs"></i> Services</a>
+          </li>
+          <li>
+            <a href="equipe.html"><i class="fas fa-users"></i> Notre équipe</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li>
+            <a href="rendez-vous.html"
+              ><i class="far fa-calendar"></i> rendez-vous</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <head>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      </head>
+      <section id="presentation">
+        <h2>Bienvenue au Cabinet Infirmier</h2>
+        <p>
+          Nous sommes une équipe de professionnels de la santé spécialisés en
+          soins infirmiers.
+        </p>
+        <p>
+          Notre mission est de fournir des soins de haute qualité et de soutenir
+          nos patients dans leur rétablissement.
+        </p>
+      </section>
+
+      <div class="slider">
+        <div><img src="diap/slide1.jpeg" alt="" /></div>
+        <div><img src="diap/slide2.jpeg" alt="" /></div>
+        <div><img src="diap/slide3.jpeg" alt="" /></div>
+        <div><img src="diap/slide4.jpeg" alt="" /></div>
+        <div><img src="diap/slide5.jpeg" alt="" /></div>
+        <div><img src="diap/slide6.jpeg" alt="" /></div>
+        <div><img src="diap/slide7.jpeg" alt="" /></div>
+      </div>
+      <script>
+        $(document).ready(function () {
+          $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000
+          });
+        });
+      </script>
+    </header>
+    <main></main>
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f" target="_blank"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p>&copy; 2023 All rights reserved.Cabinet infirmier</p>
+    </footer>
+  </body>
+</html>
